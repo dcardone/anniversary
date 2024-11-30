@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    size: 32px;
+}
+
+body {
+    background-image: url(images/heart-background.JPG);
+}
+
+
+.featurePicContainer {
+    display: flex;
+    justify-content: center;    
+}
+
+.featurePic {
+    width: 20%;
+    height: auto;
+}
+
+.thumbnail {
+    width: 30%;
+    height: auto;
+    align-items: center;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
