@@ -8,7 +8,7 @@ h2 {
 
 h3 {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 td {
@@ -21,6 +21,7 @@ th {
 
 body {
     background-image: url(../images/heart-background.JPG);
+    display: grid;
 }
 
 .container {
@@ -46,6 +47,26 @@ body {
     width: 40%;
     height: auto;
     align-items: center;
+}
+
+.backButton {
+    width: 4%;
+    min-width: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    
+}
+
+.nextButton {
+    width: 4%;
+    min-width: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    
 }
 
 .pacifico-regular {
