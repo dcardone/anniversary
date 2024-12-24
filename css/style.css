@@ -9,6 +9,7 @@ h2 {
 h3 {
     text-align: center;
     margin-top: 8%;
+    font-size: 30px;
 }
 
 td {
@@ -29,6 +30,10 @@ body {
     flex-direction: column; /* Stack items vertically */
     align-items: center;   /* Center align text */
     overflow-wrap: break-word;
+}
+
+.messageContainer {
+    max-width: 80%;
 }
 
 
