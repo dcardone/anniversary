@@ -23,6 +23,7 @@ th {
 body {
     background-image: url(../images/heart-background.JPG);
     display: grid;
+    position: relative;
 }
 
 .container {
@@ -64,13 +65,19 @@ body {
     
 }
 
+.nextButtonContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; /* Optional: to add some padding */
+}
+
 .nextButton {
     width: 4%;
     min-width: 30px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
     margin: 10px;
+    cursor: pointer;
     
 }
 
