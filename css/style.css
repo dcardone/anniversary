@@ -8,8 +8,8 @@ h2 {
 
 h3 {
     text-align: center;
-    margin-top: 8%;
     font-size: 30px;
+    padding: 10px;
 }
 
 td {
@@ -24,6 +24,9 @@ body {
     background-image: url(../images/heart-background.JPG);
     display: grid;
     position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 .container {
@@ -58,31 +61,57 @@ body {
 .backButton {
     width: 4%;
     min-width: 30px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin: 10px;
-    
+
 }
 
-.nextButtonContainer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px 0; /* Optional: to add some padding */
-}
 
 .nextButton {
     width: 4%;
     min-width: 30px;
-    margin: 10px;
-    cursor: pointer;
-    
+    margin: 5px;
+
+}
+
+.homeButton {
+    width: 3%;
+    min-width: 30px;
+    margin: 5px;
 }
 
 .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    border-collapse: collapse;
   }
+  
+  .navbar td {
+    padding: 10px;
+  }
+  
+  .left {
+    justify-content: start;
+    width: 6%;
+   
+  }
+  
+  .center {
+    justify-content: center;
+    width: 6%;
+    
+  }
+  
+  .right {
+    justify-content: right;
+    width: 6%;
+    
+  }
+  
+
